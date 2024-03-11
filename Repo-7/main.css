@@ -1,0 +1,280 @@
+@import url(./color.css);
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #0078ad;
+    height: 70px;
+    width: 100%;
+}
+
+.nav-link button{
+    background-color: #0078ad;
+    color: #fff;
+    border: none;
+    margin-left: 50px;
+}
+
+.nav-link button:hover{
+    /* border: 2px solid; */
+    border-radius: 50px;
+    background-color: #172c40;
+    width: 220px;
+    cursor: pointer;
+}
+
+.navbar-brand{
+    margin-left: 150px;
+    margin-top: -10px;
+    width: 50px;
+    padding-left: 13px;
+}
+
+.navbar-brand:hover{
+    background-color: #172c40;
+    border-radius: 50px;
+    width: 50px;
+}
+
+.d-flex{
+    margin-right: 150px;
+}
+
+.form-control{
+    height: 40px;
+    width: 280px;
+    border-radius: 50px;
+}
+
+.btn{
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    /* border: 2px solid; */
+    border-radius: 50px;
+    background-color: #172c40;
+}
+
+.nav{
+    /* border: 2px solid; */
+    height: 40px;
+    width: 100%;
+    background-color: #0c5273;
+    padding-right: 130px;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#carouselExampleIndicators{
+    margin-top: 40px;
+    height: 320px;
+    /* border: 2px solid; */
+    position: relative;
+    cursor: pointer;
+}
+
+.d-block{
+    height: 318px;
+}
+
+#img{
+    /* border: 2px solid; */
+    background-image: url(./images/1706379412_Timmer_Banner_2_Desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 242px;
+    margin-top: 10px;   
+    margin-left: 15px;  
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#sai{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 570px;
+    padding-top: 100px;
+}
+
+.div{
+    /* border: 2px solid; */
+    height: 65px;
+    width: 65px;
+    margin-left: 20px;
+    line-height: 10px;
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+
+.div p{
+    padding-left: 25px;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.span{
+    padding-left: 12px;
+    font-weight: bold; 
+}
+
+.span1{
+    padding-left: 3px;
+    font-weight: bold;
+}
+
+.sec{
+    height: 300px;
+    /* border: 2px solid; */
+    position: relative;
+    margin-top: 20px;
+}
+
+.sec-div{
+    /* border: 2px solid; */
+    height: 290px;
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 50px;
+    font-family: "JioType",helvetica,arial,sans-serif;
+}
+
+.sec-div img{
+    height: 266px;
+    width: 212px;
+    cursor: pointer;
+}
+
+.sec-div img:hover{
+    transform: scale(1.02);
+}
+
+.images{
+    /* border: 2px solid;   */
+    height: 100px;
+    width: 50% !important;
+    margin-top: 20px;
+    margin-left: 350px;
+    cursor: pointer;
+}
+
+#top-deals{
+    /* border: 2px solid; */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-deals button{
+    border-radius: 50px;
+    border-color: #adb5bd;
+    width: 100px;
+    height: 40px;
+    color: #0c5273;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#card1{
+    /* border: 2px solid; */
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.card{
+    border: none;
+}
+
+.cream{
+    height: 180px;
+    width: 180px;
+    padding: 20px;
+}
+
+.list-group-item1{
+   height: 50px; 
+   overflow: hidden;
+   padding-left: 15px;
+}
+
+.list-group-item{
+    font-weight: bold;
+    border: none;
+}
+
+.list-group-item:last-child{
+    color: #adb5bd;
+}
+
+.list-group-item span{
+    /* border: 2px solid; */
+    background-color: #20c997;
+    color: green;
+}
+
+.card-body button{
+    border-radius: 50px;
+    border-color: #adb5bd;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #0c5273;
+    font-weight: bold;
+}
+
+#carouselExampleAutoplaying{
+    /* border: 2px solid; */
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.b-block{
+    width: 100px;
+}
+
+.sec1{
+    margin-top: 50px;
+}
+
+.jio{
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    width: 98%;
+    cursor: pointer;
+}
+
+.jio img{
+    width: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+}
