@@ -26,3 +26,6 @@
 
 # Name : Cloned Web-Site of Ray Romano Contracting
 # Hoisting : https://haridegala.github.io/web-sites/Repo-9/
+
+# Name : Cloned Web-Site of Spotify
+# Hoisting : https://haridegala.github.io/web-sites/Repo-10/public/
